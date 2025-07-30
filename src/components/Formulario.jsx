@@ -183,12 +183,11 @@ const Formulario = () => {
             </div>
         </Form.Group>
         <div className="mt-3 text-center">
-          <Button className="rounded-0" variant="primary" type="submit">
+          <Button className="rounded-0 mb-5" variant="primary" type="submit">
             Agregar nueva cita
           </Button>
         </div>
       </Form>
-      <h2 className="text-center mt-4">Administra las citas aqui</h2>
       <ListaCitas citas={citas} borrarCita={borrarCita}></ListaCitas>
     </div>
   );
